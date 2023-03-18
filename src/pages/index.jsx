@@ -1,8 +1,14 @@
 import Navegador from "@/components/Navegador"
 
-export default function Home() {
+export default function Inicio() {
     return (
-        <div>
+        <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            height: '100vh'
+        }}>
               <Navegador texto="Estiloso" destino="/estiloso"/>
               <Navegador texto="Exemplo" destino="/exemplo"/>
               <Navegador texto="JSX"destino="/jsx"/>  
