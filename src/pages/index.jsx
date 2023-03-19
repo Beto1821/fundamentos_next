@@ -13,7 +13,9 @@ export default function Inicio() {
               <Navegador texto="Exemplo" destino="/exemplo"/>
               <Navegador texto="JSX" destino="/jsx"/>
               <Navegador texto="Navegação #01" destino="/navegacao"/>
-              <Navegador texto="Codigo cliente" destino="/cliente/123"/>   
+              <Navegador texto="Codigo cliente" destino="/cliente/sp-2/123"/>
+              <Navegador texto="Componenete com estado" destino="/estado"/>
+              <Navegador texto="integração com API" destino="/integracao"/>     
         </div>
     )
 }

@@ -6,7 +6,8 @@ export default function Codigo() {
 
     return (
         <Layout titulo="Navegação Dinamica">
-            <span>Codigo={router.query.codigo}</span> 
+            <div>Codigo={router.query.codigo}</div>
+            <div>Filial={router.query.filial}</div>
         </Layout>
     )
 }
